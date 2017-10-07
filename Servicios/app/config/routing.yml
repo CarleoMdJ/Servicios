@@ -1,0 +1,8 @@
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+
+default_app:
+    resource: '@AppBundle/Controller/DefaultController.php'
+    prefix: "/"
+    type: annotation
